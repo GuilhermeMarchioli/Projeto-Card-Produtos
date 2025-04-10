@@ -3,5 +3,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-    
+    --cor-1: #121212;
+    --cor-3: #1E1E1E;
+    --cor-4: #AAAAAA;
+    --cor-5: #B0FF4E;
+
+    --fonte-padrao: 'Poppins';
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: var(--fonte-padrao);
+    background-color: #121212;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-1);
+}
+
+main > h1 {
+    font-size: 2.5em;
+    margin: 50px;
+    color: var(--cor-5);
+}
+
+section {
+    background-color: var(--cor-3);
+    padding: 20px;
+    margin-top: 80px;
+    border-radius: 30px;
+    box-shadow: 3px 4px 5px rgba(34, 34, 34, 0.192);
+}
+
+section h2 {
+    color: white;
+    padding: 15px;
+}
+
+section p {
+    text-align: left;
+    color: var(--cor-4);
+    padding: 20px 0px;
+}
+
+section button {
+    padding: 15px 40px;
+    border: 3px solid var(--cor-5);
+    border-radius: 20px;
+
+    background-color: transparent;
+    color: var(--cor-5);
+    margin: 5px;
+    font-size: 1.1em;
+}
+
+section button:hover {
+    background-color: var(--cor-5);
+    color: black;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+section aside {
+    height: 150px;
+    width: 90%;
+    border: 1px #B0FF4E;
+}
+
+section aside#controle {
+    margin: auto;
+    background: url(imgs/PowerStick-Pro.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+
+}
+
+section aside#tenis {
+    margin: auto;
+    background: url(imgs/Runner-Z-9000.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+section aside#portatil {
+    margin: auto;
+    background: url(imgs/RetroBox.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+section aside#bone {
+    margin: auto;
+    background: url(imgs/Boné-CodeOn.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+section aside#headset {
+    margin: auto;
+    background: url(imgs/Headset.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+section aside#teclado {
+    margin: auto;
+    background: url(imgs/Teclado.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+section aside#mouse {
+    margin: auto;
+    background: url(imgs/Mouse.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+section aside#notebook {
+    margin: auto;
+    background: url(imgs/Notebook.jpg) no-repeat center center;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: var(--cor-3);
+    margin-top: 20px;
+    padding: 10px;
+}
+
+footer svg {
+    color: #B0FF4E;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
 }
