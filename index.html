@@ -8,6 +8,14 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <header>
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+              </svg>
+              <div id="quant"></div>
+        </p>
+    </header>
     <main>
         <h1>Shop<span>Flash</span></h1>
 
@@ -17,7 +25,7 @@
             <p>Controle multiplataforma com precisão absurda e ergonomia top.
             Ideal pra longas jogatinas sem cansar.</p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
 
         <section>
@@ -26,7 +34,7 @@
             <p>Estilo e conforto pra quem corre até dos bugs no código.
             Tecnologia leve e resistente.</p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
 
         <section>
@@ -35,7 +43,7 @@
             <p>Mil jogos clássicos direto na sua mão, sem lag nem tristeza.
             Design retrô com pegada moderna.</p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
 
         <section>
@@ -44,7 +52,7 @@
             <p>Ativa o modo desenvolvedor instantaneamente.
             Estilo tech pra todos os devs do rolê.</p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
 
         <section>
@@ -52,7 +60,7 @@
             <h2>Headset Sonic Boom X1</h2>
             <p>Qualidade de áudio absurda e conforto perfeito para você!</p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
 
         <section>
@@ -60,7 +68,7 @@
             <h2>Teclado DarkBlade</h2>
             <p>Teclado mecânico de ótima qualidade e material.</p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
 
         <section>
@@ -68,7 +76,7 @@
             <h2>Mouse AimMaster V2</h2>
             <p>Alta tacha de CPS, clique suave, mira precisa, headshot garantido (quase).</p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
 
         <section>
@@ -76,7 +84,7 @@
             <aside id="notebook"></aside>
             <p>Computador portátil de qualidade perfeita, gigante na performance! </p>
             <h3></h3>
-            <button>Comprar Agora</button>
+            <button onclick="comprar()">Comprar Agora</button>
         </section>
     </main>
     <footer>
@@ -85,5 +93,6 @@
             <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0M7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0z"/>
           </svg> Todos os produtos e imagens são meramente ilustrativos.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
