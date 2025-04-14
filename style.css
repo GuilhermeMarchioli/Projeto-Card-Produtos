@@ -27,18 +27,18 @@ body, html {
 
 header {
     padding: 10px;
-    color: white;
     text-align: right;
 }
 
 header svg {
     position: fixed;
     text-align: right;
-    right: 10px;
+    color: #B0FF4E;
+    right: 3%;
 }
 
 header svg:hover {
-    color: var(--cor-5);
+    color: whitesmoke;
     transition: all 1s;
 }
 
@@ -47,12 +47,54 @@ div#quant {
     width: 20px;
     height: 20px;
     top: 33px;
-    right: 6px;
+    right: 3%;
     text-align: center;
     border-radius: 15px;
     background-color: #B0FF4E;
     position: fixed;
     color: black;
+}
+
+dialog {
+    text-align: center;
+    height: 90%; 
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+
+    background-color: var(--cor-3);
+}
+
+dialog h1 {
+    text-align: center;
+    color: var(--cor-5);
+    margin: 30px;
+}
+
+dialog button {
+    height: 50px;
+    width: 200px;
+    font-size: 1.2em;
+    border: 3px var(--cor-5) solid;
+    border-radius: 15px;
+    color: var(--cor-5);
+    padding: 5px;
+    background-color: transparent;
+}
+
+dialog::backdrop {
+    background-color: rgb(0 0 0 / .5);
+}
+
+dialog button:hover {
+    background-color: var(--cor-5);
+    color: black;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 main {
