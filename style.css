@@ -174,6 +174,17 @@ section#tenis {
 
 section#console {
     background: url(imgs/RetroBox.png) center center no-repeat;
+    background-size: cover;
+}
+
+section#boné {
+    background: url(imgs/Boné-CodeOn.png) center center no-repeat;
+    background-size: cover;
+}
+
+section#fone {
+    background: url(imgs/Headset.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 /* Conteudo principal*/
