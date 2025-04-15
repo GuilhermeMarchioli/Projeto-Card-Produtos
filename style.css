@@ -167,6 +167,15 @@ section#controle {
     background-size: cover;
 }
 
+section#tenis {
+    background: url(imgs/Runner-Z-9000.png) center center no-repeat;
+    background-size: cover;
+}
+
+section#console {
+    background: url(imgs/RetroBox.png) center center no-repeat;
+}
+
 /* Conteudo principal*/
 main {
     width: 100%;
