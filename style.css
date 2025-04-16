@@ -157,6 +157,11 @@ dialog div h2 {
     margin: 20px;
 }
 
+dialog div p {
+    text-align: center;
+    font-size: 1.12em;
+}
+
 dialog div svg {
     position: static;
     text-align: center;
@@ -184,6 +189,21 @@ section#boné {
 
 section#fone {
     background: url(imgs/Headset.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+section#teclado {
+    background: url(imgs/Teclado.png) center center no-repeat;
+    background-size: cover;
+}
+
+section#mouse {
+    background: url(imgs/Mouse.png) center center no-repeat;
+    background-size: cover;
+}
+
+section#pc {
+    background: url(imgs/Notebook.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -222,6 +242,11 @@ section p {
     text-align: left;
     color: var(--cor-4);
     padding: 20px 0px;
+}
+
+section h3 {
+    color: #B0FF4E;
+    font-size: 1.3em;
 }
 
 section button {
