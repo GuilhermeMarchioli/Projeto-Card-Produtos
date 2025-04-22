@@ -257,6 +257,7 @@ section button {
     background-color: transparent;
     color: var(--cor-5);
     margin: 5px;
+    margin-top: 25px;
     font-size: 1.1em;
 }
 
