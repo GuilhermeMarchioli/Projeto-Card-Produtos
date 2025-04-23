@@ -14,4 +14,23 @@
         height: 490px;
         margin: 15px;
     }
+
+    div.produto {
+        flex-flow: row nowrap;
+        height: 350px;
+        width: 100%;
+    }
+
+    div.produto h2 {
+        margin: 5px;
+    }
+
+    div.produto h3 {
+        margin: 5px;
+    }
+
+    section.img {
+        margin-top: 6px;
+        background-size: contain;
+    }
  }
